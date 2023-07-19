@@ -117,7 +117,7 @@
 
 /* medium / tablet device */
 @media screen and (min-width:576px) and (max-width:992px){
-    .nav-container{
+    .nav-container,.menu-container{
         flex-direction: column;
     }
     

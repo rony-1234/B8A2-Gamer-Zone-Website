@@ -253,6 +253,9 @@ nav{
 .pic:hover .overlay{
     opacity: 1;
 }
+.pic div > img:hover{
+    border: 2px solid #F948B2;
+}
 
 /* play section styles */
 .play{
