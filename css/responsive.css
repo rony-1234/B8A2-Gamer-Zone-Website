@@ -70,6 +70,23 @@
     .add-img img{
         width: 80%;
     }
+    .button-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 50px 5px;
+    }
+    .button-set button{
+        
+        gap: 0px;
+    }
+    .button-set img{
+        width: 50%;
+    }
+    .button-set p{
+        color:#0B0223;
+        font-size: .75rem;
+
+    }
     
 }
 
