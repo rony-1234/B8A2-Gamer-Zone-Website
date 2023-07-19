@@ -222,7 +222,7 @@ nav{
     align-items: center;
     grid-template-columns: repeat(4,1fr);
 }
-.feature-img div img {
+.feature-img .pic img {
     width: 100%;
     height: auto;
     border-radius: 15px;
@@ -235,6 +235,45 @@ nav{
     margin-bottom: 110px;
     /* 150% */
 }
+/* bonus part */
+.pic{
+    position: relative;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic > div >img{
+    position: relative;
+    width: 100%;
+   
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+
+
+ .fa-play{
+    top: -60%;
+ }   
+ .fa-solid{
+    font-size: 24px;
+
+}
+.fa-solid:hover{
+    color: #534C64;
+}
+.pic:hover.overlay{
+    opacity: 1;
+}
+
 
 /* play section styles */
 .play{
@@ -308,6 +347,13 @@ nav{
     font-size: 1rem;
     font-weight: 500;
     margin-left: 5px;
+}
+ /* bonus part */
+.button-set button:hover{
+    border:1px solid #8758F1;
+}
+.button-set button p:hover {
+    color: #34c049;
 }
 /* footer section start */
 footer{
