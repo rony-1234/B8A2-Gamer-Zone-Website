@@ -29,10 +29,8 @@
     font-size: 2.8rem;
     font-style: normal;
     font-weight: 700;
-   
 }
- 
-.highlight{
+ .highlight{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
      background-clip: text;
     -webkit-background-clip: text;
@@ -76,15 +74,13 @@ nav{
     text-align: center;
     font-size: 1.2rem;
     font-weight: 500;
-
 }
 .menu-container li a {
     text-decoration: none;
 }
 .fa-brands{
     font-size: 25px;
-    padding: 16px 16px;
-    
+    padding: 16px 16px; 
 }
 .follow{
     border-radius: 8px;
@@ -161,7 +157,6 @@ nav{
     justify-content: space-evenly;
     gap: 50px;
     padding: 20px 60px;
-  
     align-items: center;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
@@ -178,18 +173,15 @@ nav{
     padding-right: 5%;
 }
 .gamer-title{
-    
    font-size: 3rem;
    font-weight: 700;
    margin-bottom: 0px;
-
 }
 .purpose{
     color: #534C64;
     font-size: 1.2rem;
     font-weight: 500;
    line-height: 45px; 
-   
 }
 .leash{
     margin-top: 0px;
@@ -199,10 +191,6 @@ nav{
     line-height: 45px;
 }
 /* feature section styles */
-.feature{
-  
-
-}
 .feature-title{
    color: #0B0223;
    text-align: center;
@@ -227,53 +215,44 @@ nav{
     height: auto;
     border-radius: 15px;
 }
+
 .caption{
     color: #534C64;
     font-size: 1rem;
     font-weight: 500;
     line-height: 30px;
     margin-bottom: 110px;
-    /* 150% */
 }
 /* bonus part */
 .pic{
     position: relative;
     width: 100%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .pic > div >img{
     position: relative;
     width: 100%;
-   
 }
 
 .overlay{
     position: absolute;
-    top: 0;
-    left: 0;
-    
-    
+    top: 90px;
+    left: 65px;
+    text-align: center;
+    transition: .3s ease;
+    opacity: 0;
+    color: #FFF; 
 }
-
-
-
- .fa-play{
-    top: -60%;
- }   
- .fa-solid{
-    font-size: 24px;
-
+.overlay > p{
+    color: #F948B2; 
+    font-weight: 600;
 }
-.fa-solid:hover{
-    color: #534C64;
-}
-.pic:hover.overlay{
+.pic:hover .overlay{
     opacity: 1;
 }
-
 
 /* play section styles */
 .play{
@@ -329,9 +308,6 @@ nav{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     gap: 30px;
-   
-
-
 }
 .button-set button{
     border-radius: 50px;
