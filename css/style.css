@@ -332,6 +332,8 @@ footer{
     gap: 60px;
     justify-content: center;
     padding-bottom: 60px;
+    flex-basis: 100%;
+    flex-wrap: wrap;
 }
 .footer-menu a {
     color: #FFF;
@@ -348,10 +350,34 @@ footer{
     text-align: center;
     gap: 40px;
     justify-content: center;
-    padding-bottom: 74px;
+    padding-bottom: 56px;
 }
 .social-icon a {
     color: #FFF;
+}
+.footer-desc{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    gap: 60px;
+    justify-content: center;
+    padding-bottom: 28px;
+}
+.footer-desc a {
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+}
+.footer-path{
+    padding-bottom: 130px;
+}
+.footer-path p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+   line-height: normal;
+
 }
 
 
